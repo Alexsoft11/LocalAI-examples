@@ -1,6 +1,14 @@
+<<<<<<< Tabnine <<<<<<<
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@angular/*"],
+      "allowedVersions": ["~14.2.0"]
+    }
   ]
 }
+>>>>>>> Tabnine >>>>>>># {"conversationId":"f56bcc08-8863-4894-b6da-8dcca056f164","source":"instruct"}
